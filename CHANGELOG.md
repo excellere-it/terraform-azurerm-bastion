@@ -7,12 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.3] - 2025-10-30
+## [0.1.4] - 2025-10-30
+
+### Fixed
+- Corrected diagnostics module version back to v0.0.2 (v0.0.11 does not exist)
+  - v0.1.3 incorrectly referenced non-existent diagnostics v0.0.11
+  - Reverted to correct version v0.0.2 which is the latest available
+
+## [0.1.3] - 2025-10-30 [YANKED]
 
 ### Changed
-- Updated diagnostics module dependency from v0.0.2 to v0.0.11
-  - Includes 9 versions of improvements (bug fixes, security patches, performance optimizations)
-  - Addresses compliance audit recommendations
+- **YANKED**: Updated diagnostics module dependency from v0.0.2 to v0.0.11
+  - This version is yanked because diagnostics v0.0.11 does not exist
+  - Use v0.1.4 instead
 
 ## [0.1.2] - 2025-10-30
 
