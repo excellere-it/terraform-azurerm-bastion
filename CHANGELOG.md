@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2025-10-30
+
+### Changed
+- Updated module dependencies to use Terraform Cloud registry format
+  - Changed terraform-namer module from relative path to `app.terraform.io/infoex/namer/terraform` (version 0.0.3)
+  - Changed diagnostics module from relative path to `app.terraform.io/infoex/diagnostics/azurerm` (version 0.0.2)
+  - Ensures consistent module resolution in Terraform Cloud workflows
+  - Improves module dependency management
+
 ## [0.1.1] - 2024-10-30
 
 ### Changed
