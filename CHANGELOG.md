@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.3] - 2025-10-30
+
+### Changed
+- Updated diagnostics module dependency from v0.0.2 to v0.0.11
+  - Includes 9 versions of improvements (bug fixes, security patches, performance optimizations)
+  - Addresses compliance audit recommendations
+
 ## [0.1.2] - 2025-10-30
 
 ### Changed
