@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2024-10-30
+
+### Changed
+- Published module version for use in infrastructure projects
+- Module now ready for consumption via versioned releases
+
 ## [0.1.0] - 2024-10-30
 
 ### Added
@@ -65,5 +71,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive validation to prevent misconfigurations
 - No hardcoded credentials or secrets
 
-[unreleased]: https://github.com/excellere-it/terraform-azurerm-bastion/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/excellere-it/terraform-azurerm-bastion/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/excellere-it/terraform-azurerm-bastion/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/excellere-it/terraform-azurerm-bastion/releases/tag/v0.1.0
