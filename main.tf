@@ -68,7 +68,7 @@
 
 module "naming" {
   source  = "app.terraform.io/infoex/namer/terraform"
-  version = "0.0.3"
+  version = "0.0.1"
 
   contact     = var.contact
   environment = var.environment
@@ -171,7 +171,7 @@ resource "azurerm_bastion_host" "this" {
 module "diagnostics" {
   count  = var.enable_diagnostics ? 1 : 0
   source  = "app.terraform.io/infoex/diagnostics/azurerm"
-  version = "0.0.2"
+  version = "0.0.1"
 
   log_analytics_workspace_id = var.log_analytics_workspace_id
 
